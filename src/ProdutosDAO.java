@@ -22,6 +22,8 @@ public class ProdutosDAO {
     ResultSet resultset;
     ArrayList<ProdutosDTO> listagem = new ArrayList<>();
     
+    
+    // cadastrar produtos
     public void cadastrarProduto (ProdutosDTO produto){
         
         
